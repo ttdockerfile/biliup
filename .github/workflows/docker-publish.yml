@@ -10,7 +10,7 @@ jobs:
   push:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout current repo（主要用于读取 version.txt）
+      - name: Checkout current repo
         uses: actions/checkout@v3
 
       - name: Read version from version.txt
